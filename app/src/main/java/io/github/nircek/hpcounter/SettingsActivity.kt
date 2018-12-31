@@ -34,6 +34,17 @@ class SettingsActivity : AppCompatPreferenceActivity() {
         setupActionBar()
     }
 
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            // Respond to the action bar's Up/Home button
+            android.R.id.home -> {
+                super.onBackPressed()
+                return true
+            }
+        }
+        return super.onOptionsItemSelected(item)
+    }
+
     /**
      * Set up the [android.app.ActionBar], if the API is available.
      */
