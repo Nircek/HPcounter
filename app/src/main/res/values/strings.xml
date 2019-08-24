@@ -9,6 +9,14 @@
     <string name="menu_add_counter">Add counter</string>
     <string name="title_activity_settings">Settings</string>
 
+    <!-- Strings related to counter_fragment -->
+    <string name="counter">20</string>
+    <string name="counter_hint">HP</string>
+    <string name="plus_one">+1</string>
+    <string name="minus_one">-1</string>
+    <string name="reset">reset</string>
+    <string name="minus_custom">-%d</string>
+
     <!-- Strings related to Settings -->
 
     <!-- Example General settings -->

@@ -17,6 +17,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
+        val sfm = supportFragmentManager.beginTransaction()
+        sfm.replace(R.id.frameLayout, CounterFragment())
+        sfm.commit()
 
         val toggle = ActionBarDrawerToggle(
             this, drawer_layout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close
