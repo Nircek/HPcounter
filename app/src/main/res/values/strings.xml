@@ -15,7 +15,7 @@
     <string name="plus_one">+1</string>
     <string name="minus_one">-1</string>
     <string name="reset">reset</string>
-    <string name="minus_custom">-%d</string>
+    <string name="minus_custom">-%1$d</string>
 
     <!-- Strings related to Settings -->
 
